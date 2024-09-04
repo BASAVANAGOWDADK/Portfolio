@@ -27,7 +27,7 @@ This repository showcases my personal portfolio website. It includes details abo
 
 ## Live Demo
 
-You can view the live version of this portfolio at [insert live demo link here].
+You can view the live version of this portfolio at <a href="[BASAVANAGOWDADK](https://github.com/BASAVANAGOWDADK/portfolio.git)">link</a>.
 
 ## Getting Started
 
@@ -35,4 +35,4 @@ To view or modify this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/BASAVANAGOWDADK/portfolio.git
