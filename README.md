@@ -26,7 +26,7 @@ This repository showcases my personal portfolio website. It includes details abo
 
 ## Live Demo
 
-You can view the live version of this portfolio at [https://basavanagowdadk.github.io/portfolio/](https://basavanagowdadk.github.io/portfolio/).
+You can view the live version of this portfolio at [https://basavanagowdadk.github.io/Portfolio/](https://basavanagowdadk.github.io/Portfolio/).
 
 ## Getting Started
 
