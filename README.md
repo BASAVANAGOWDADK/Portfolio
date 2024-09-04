@@ -1,5 +1,4 @@
 # Portfolio
-# Basavanagowda DK - Portfolio
 
 Welcome to the portfolio of **Basavanagowda DK**, a Full Stack Developer with expertise in Moodle customization and web development.
 
@@ -27,7 +26,7 @@ This repository showcases my personal portfolio website. It includes details abo
 
 ## Live Demo
 
-You can view the live version of this portfolio at <a href="[BASAVANAGOWDADK](https://github.com/BASAVANAGOWDADK/portfolio.git)">link</a>.
+You can view the live version of this portfolio at [https://basavanagowdadk.github.io/portfolio/](https://basavanagowdadk.github.io/portfolio/).
 
 ## Getting Started
 
