@@ -9,288 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            overflow-x: hidden;
-        }
-
-        /* Smooth Scroll */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Navbar */
-        .navbar {
-            background-color: transparent;
-            padding: 15px;
-            transition: background-color 0.3s ease;
-        }
-
-        .navbar-brand,
-        .navbar-nav .nav-link {
-            color: #fff;
-            transition: color 0.3s ease;
-            font-weight: 500;
-        }
-
-        .navbar.scrolled {
-            background-color: #007bff;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar.scrolled .nav-link,
-        .navbar.scrolled .navbar-brand {
-            color: #fff;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: url('background.jpg') no-repeat center center/cover;
-            height: 100vh;
-            color: #fff;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            position: relative;
-        }
-
-        .hero h1 {
-            font-size: 4rem;
-            margin-bottom: 10px;
-            animation: fadeInDown 1s ease;
-            letter-spacing: 2px;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            animation: fadeInUp 1s ease;
-            font-weight: 300;
-        }
-
-        .btn-primary {
-            background-color: #ff6f61;
-            border-color: #ff6f61;
-            padding: 12px 28px;
-            font-size: 1.2rem;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 4px 12px rgba(255, 111, 97, 0.3);
-        }
-
-        .btn-primary:hover {
-            background-color: #ff8a75;
-            box-shadow: 0 4px 20px rgba(255, 111, 97, 0.5);
-        }
-
-        /* Section Title */
-        .section-title {
-            text-align: center;
-            margin: 60px 0;
-            font-size: 2.5rem;
-            color: #007bff;
-            text-transform: uppercase;
-            position: relative;
-            letter-spacing: 1px;
-        }
-
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 100px;
-            height: 3px;
-            background-color: #007bff;
-            margin: 20px auto 0 auto;
-        }
-
-        /* Section Dividers */
-        .skills,
-        .projects,
-        .experience,
-        .education,
-        .contact,
-        .gallery,
-        .achievements {
-            padding: 80px 0;
-        }
-
-        .skills,
-        .experience,
-        .achievements {
-            background-color: #f4f4f4;
-        }
-
-        /* Section Cards */
-        .skills .skill-item,
-        .projects .project-item,
-        .experience .experience-item,
-        .education .education-item,
-        .gallery .gallery-item,
-        .achievements .achievement-item {
-            background: #fff;
-            padding: 40px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 12px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .skills .skill-item:hover,
-        .projects .project-item:hover,
-        .experience .experience-item:hover,
-        .education .education-item:hover,
-        .gallery .gallery-item:hover,
-        .achievements .achievement-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .skills .skill-item h3,
-        .projects .project-item h3,
-        .experience .experience-item h3,
-        .education .education-item h3,
-        .gallery .gallery-item h3,
-        .achievements .achievement-item h3 {
-            margin-bottom: 15px;
-            font-size: 1.7rem;
-            color: #007bff;
-            font-weight: 600;
-        }
-
-        /* Footer */
-        .footer {
-            background-color: #343a40;
-            color: #fff;
-            text-align: center;
-            padding: 30px;
-        }
-
-        .footer a {
-            color: #007bff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2rem;
-        }
-
-        /* Media Queries */
-        @media(max-width: 768px) {
-            .hero h1 {
-                font-size: 3rem;
-            }
-
-            .hero p {
-                font-size: 1.2rem;
-            }
-        }
-
-        /* Contact Section Styles */
-        .contact {
-            padding: 60px 0;
-            background-color: #f8f9fa;
-        }
-
-        .section-title {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .contact p {
-            margin: 10px 0;
-            font-size: 1rem;
-            display: flex;
-            align-items: center;
-        }
-
-        .contact p i {
-            margin-right: 10px;
-            color: #007bff;
-        }
-
-        .contact-link {
-            color: #007bff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .contact-link:hover {
-            color: #0056b3;
-            text-decoration: underline;
-        }
-
-        .phone-number {
-            font-weight: bold;
-        }
-
-        .social-links {
-            margin-top: 20px;
-        }
-
-        .social-links .list-inline-item {
-            margin: 0 10px;
-        }
-
-        .social-links .text-primary {
-            color: #007bff;
-        }
-
-        .social-links .text-primary:hover {
-            color: #0056b3;
-        }
-
-        /* Gallery Section Styles */
-        .gallery {
-            background-color: #f8f9fa;
-            padding: 60px 0;
-        }
-
-        .gallery-item {
-            overflow: hidden;
-            position: relative;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 700px;
-            object-fit: cover;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .gallery-item img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        .gallery-item img.object-fit-contain {
-            object-fit: contain;
-        }
-
-        .gallery-item img.object-fit-fill {
-            object-fit: fill;
-        }
-
-        @media (max-width: 768px) {
-            .gallery .section-title {
-                font-size: 2rem;
-            }
-
-            .gallery-item img {
-                height: 150px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .gallery-item img {
-                height: 120px;
-            }
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body>
@@ -564,32 +284,38 @@
         <div class="container">
             <h2 class="section-title text-center mb-4">Gallery</h2>
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="image (1).jpg" class="img-fluid" alt="Image 1">
+                        <a href="image (1).jpg" class="glightbox" title="Product Catalyst Award">
+                            <img src="image (1).jpg" class="img-fluid" alt="1">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="image (2).jpg" class="glightbox" title="Product Catalyst Award">
+                            <img src="image (2).jpg" class="img-fluid" alt="2">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="image (3).jpg" class="glightbox" title="Product Catalyst Award">
+                            <img src="image (3).jpg" class="img-fluid" alt="3">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="image (4).jpg" class="glightbox" title="Product Catalyst Award">
+                            <img src="image (4).jpg" class="img-fluid" alt="4">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="image (5).jpg" class="glightbox" title="Product Catalyst Award">
+                            <img src="image (5).jpg" class="img-fluid" alt="5">
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href="image (6).jpg" class="glightbox" title="Best Team of the Year 2023">
+                            <img src="image (6).jpg" class="img-fluid" alt="5">
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="image (2).jpg" class="img-fluid" alt="Image 2">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="image (3).jpg" class="img-fluid" alt="Image 3">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="image (4).jpg" class="img-fluid" alt="Image 4">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="image (5).jpg" class="img-fluid" alt="Image 5">
-                    </div>
-                </div>
-                <!-- More images -->
             </div>
         </div>
     </section>
@@ -658,6 +384,9 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3/dist/js/glightbox.min.js"></script>
+    <script src="portfolio.js"></script>
 
 </body>
 
