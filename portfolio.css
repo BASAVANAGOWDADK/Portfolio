@@ -70,8 +70,8 @@ html {
   }
 
   .hero .btn {
-    font-size: 12px;
-    padding: 10px 15px;
+    font-size: 12px !important;
+    padding: 10px 15px !important;
   }
 }
 
@@ -182,17 +182,6 @@ html {
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.2rem;
-}
-
-/* Media Queries */
-@media(max-width: 768px) {
-  .hero h1 {
-    font-size: 3rem;
-  }
-
-  .hero p {
-    font-size: 1.2rem;
-  }
 }
 
 /* Contact Section Styles */
