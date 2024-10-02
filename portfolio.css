@@ -307,3 +307,37 @@ html {
   max-height: 100%;
   border-radius: var(--gallery-border-radius);
 }
+
+.experience {
+  background-color: #f8f9fa;
+}
+
+.experience-item {
+  transition: transform 0.3s;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+h4 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+h5 {
+  color: #007bff;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+}
