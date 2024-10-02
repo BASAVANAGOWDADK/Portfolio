@@ -54,6 +54,27 @@ html {
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.5rem !important;
+    letter-spacing: 2px !important;
+  }
+
+  .hero p {
+    font-size: 0.8rem !important;
+    font-weight: 150 !important;
+  }
+
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+
+  .hero .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}
+
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 20px;
@@ -209,6 +230,8 @@ html {
 
 .social-links {
   margin-top: 20px;
+  display: flex;
+  justify-content:end;
 }
 
 .social-links .list-inline-item {
@@ -262,6 +285,21 @@ html {
   height: 450px;
   object-fit: cover;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-item {
+    width: 90% !important;
+  }
+
+  .gallery-item img {
+    height: 90% !important;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content:center;
+  }
 }
 
 /* Hover effects */
