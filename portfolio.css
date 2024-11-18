@@ -155,7 +155,7 @@ html {
 .education .education-item:hover,
 .achievements .achievement-item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
 }
 
 .skills .skill-item h3,
