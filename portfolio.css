@@ -253,10 +253,13 @@ html {
 }
 
 .gallery-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--gallery-gap);
   justify-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1110px;
 }
 
 .gallery-item {
