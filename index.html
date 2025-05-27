@@ -9,7 +9,16 @@
     <!-- boxicon css link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script>
+        if (window.location.hostname.includes('github.io')) {
+          document.write('<base href="/Portfolio/">');
+        } else {
+          document.write('<base href="/">');
+        }
+    </script>
+
 </head>
 <body>
     <div class="overlay"></div>
