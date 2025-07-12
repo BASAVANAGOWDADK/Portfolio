@@ -254,50 +254,81 @@
             <button class="button mixitup-control-active" data-filter="all">All Work</button>
             <button class="button" data-filter=".web">Web Development</button>
             <button class="button" data-filter=".api">API</button>
+            <button class="button" data-filter=".cloud">Cloud</button>
+            <button class="button" data-filter=".devops">DevOps</button>
             <button class="button" data-filter=".product">Product</button>
         </div>
-
+    
         <div class="portfolio-gallery">
-            <!-- Web Development Projects -->
+    
+            <!-- Moodle Upgrade -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
-                    <h3>LMS Customization (Moodle):</h3>
-                    <p>Customized Moodle by creating plugins, headers, and policy pages, along with designing the default login page. Implemented the Merge API, converted Moodle to a multi-tenant system, created custom activities, generated reports, and configured user accounts and courses.</p>
+                    <h3>Moodle Upgrade & Performance Enhancement</h3>
+                    <p>Upgraded Moodle from v4.5 to v5.0, enhancing security, UI/UX, and backend speed. Resolved plugin compatibility, optimized performance, and improved overall learning experience.</p>
                     <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/lms.jpg" alt="Web Development Project">
                 </div>
             </div>
     
+            <!-- CI/CD Project -->
+            <div class="portfolio-box mix web api cloud devops">
+                <div class="portfolio-content">
+                    <h3>CI/CD Pipeline for Java Application</h3>
+                    <p>Designed and deployed a CI/CD pipeline using GitHub Actions, Jenkins, Docker, and Terraform. Automated build, test, and deployment for a Java web app on cloud infrastructure. Includes environment-specific rollout with rollback support.</p>
+                    <a href="https://github.com/BASAVANAGOWDADK/java-ci-cd-pipeline" class="readMore" target="_blank">View Project on GitHub</a>
+                </div>
+            </div>
+    
+            <!-- Azure WAF Optimization -->
+            <div class="portfolio-box mix web cloud devops">
+                <div class="portfolio-content">
+                    <h3>Azure WAF & Application Gateway Optimization</h3>
+                    <p>Consolidated multiple gateways into a single Azure setup, optimized routing and reduced cloud costs by 80%. Implemented secure failover, health checks, and domain migration with zero downtime.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+            </div>
+    
+            <!-- Moodle LMS Customization -->
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Moodle LMS Customization</h3>
+                    <p>Developed multi-tenant Moodle LMS with custom plugins, SCORM integration, user access control, and dynamic reporting. Enhanced branding with custom themes and headers.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/lms.jpg" alt="LMS Customization">
+                </div>
+            </div>
+    
+            <!-- Complaints Management System -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
                     <h3>Complaints Management System</h3>
-                    <p>Developed a secure dashboard for managing POSH complaints, enabling complaint filing, status tracking, and interview scheduling. Implemented banking-level security with 2FA and access controls to ensure data confidentiality.</p>
+                    <p>Created a secure POSH complaint platform with 2FA, interview scheduling, and progress tracking. Built with enterprise-grade security standards.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/cms.jpg" alt="Complaints Management System">
+                    <img src="img/portfolio/cms.jpg" alt="Complaints System">
                 </div>
             </div>
-
-             <!-- Policy Drafting Tool -->
+    
+            <!-- Policy Drafting Tool -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
                     <h3>Policy Drafting Tool</h3>
-                    <p>Designed and implemented an admin-configurable question sequence tree to dynamically customize chatbot interactions, enabling seamless client-specific policy generation by aligning user responses with tailored company requirements.</p>
+                    <p>Implemented dynamic chatbot builder for client-specific policy generation using admin-defined question trees. Streamlined compliance documentation workflows.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/pdt.jpg" alt="Policy Drafting Tool">
+                    <img src="img/portfolio/pdt.jpg" alt="Policy Tool">
                 </div>
             </div>
-
-            <!-- SCORMBridge Product Project -->
+    
+            <!-- SCORMBridge -->
             <div class="portfolio-box mix product">
                 <div class="portfolio-content">
                     <h3>SCORMBridge</h3>
-                    <p>A cutting-edge solution designed to deliver SCORM-compliant content securely and efficiently to any LMS.</p>
+                    <p>Created SCORMBridge—an award-winning SCORM delivery solution integrated with Moodle, ensuring secure and scalable learning content delivery.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
@@ -305,54 +336,57 @@
                 </div>
             </div>
     
-            <!-- IC Meeting Minutes Register -->
+            <!-- IC Meeting Register -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
                     <h3>IC Meeting Minutes Register</h3>
-                    <p>Designed to document quarterly IC meeting minutes and track actions effectively.</p>
+                    <p>Developed a digital platform to log internal committee meetings and monitor action items for better traceability and compliance.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/im.jpg" alt="IC Meeting Minutes Register">
+                    <img src="img/portfolio/im.jpg" alt="IC Register">
                 </div>
             </div>
-
+    
+            <!-- Microlearning -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
-                    <h3>Microlearning</h3>
-                    <p>A comprehensive solution for delivering bite-sized, on-demand learning experiences that enhance learner engagement.</p>
+                    <h3>Microlearning Platform</h3>
+                    <p>Designed a mobile-first microlearning platform for on-demand, bite-sized content delivery to enhance learner engagement and retention.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
                     <img src="img/portfolio/ml.png" alt="Microlearning">
                 </div>
             </div>
-
+    
+            <!-- Sales Dashboard -->
             <div class="portfolio-box mix web">
                 <div class="portfolio-content">
                     <h3>Sales Dashboard</h3>
-                    <p>Designed a dashboard to streamline customer interactions, course licensing, invoice management, and reporting for the e-learning industry. Collaborated with stakeholders to ensure alignment with sales and leadership needs. Enhanced productivity by centralizing sales data and delivering actionable insights through an intuitive interface.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-            </div>
-
-            <!-- API Projects -->
-            <div class="portfolio-box mix api">
-                <div class="portfolio-content">
-                    <h3>Merge API</h3>
-                    <p>Implemented and integrated the 'Merge' API into the company website, enabling seamless addition of hundreds of integrations to the app through a single unified API.</p>
+                    <p>Built a centralized dashboard for managing leads, licensing, and reporting. Empowered stakeholders with real-time insights and intuitive data visualizations.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
             </div>
     
+            <!-- Merge API -->
             <div class="portfolio-box mix api">
                 <div class="portfolio-content">
-                    <h3>Lime Survey Integration</h3>
-                    <p>Integrated Lime Survey with Moodle for efficient feedback collection, providing a seamless user experience.</p>
+                    <h3>Merge API Integration</h3>
+                    <p>Integrated Merge API to simplify and standardize hundreds of third-party integrations into one unified platform, accelerating development.</p>
                     <a href="#" class="readMore">Explore More</a>
                 </div>
             </div>
-
+    
+            <!-- LimeSurvey Integration -->
+            <div class="portfolio-box mix api">
+                <div class="portfolio-content">
+                    <h3>LimeSurvey–Moodle Integration</h3>
+                    <p>Integrated LimeSurvey within Moodle LMS for real-time feedback collection and streamlined reporting.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+            </div>
+    
         </div>
     </section>
 
