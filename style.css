@@ -467,7 +467,7 @@ section {
 
 .allServices {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
     align-items: center;
     gap: 2rem;
     position: relative;
