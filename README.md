@@ -1,6 +1,6 @@
 # Basavanagowda DK
 
-Cloud Engineer | Azure DevOps Engineer. Static portfolio for a recruiter scan: production Azure, Moodle, and the work behind the 2026 resume.
+Cloud Engineer | Azure DevOps Engineer.
 
 **Live:** [basavanagowdadk.github.io/Portfolio](https://basavanagowdadk.github.io/Portfolio/)
 
@@ -13,8 +13,6 @@ Cloud Engineer | Azure DevOps Engineer. Static portfolio for a recruiter scan: p
 - Skills
 - Awards, training, and education
 - Contact
-
-AZ-104 is listed as training, not a Microsoft certification.
 
 ## Stack
 
