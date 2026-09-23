@@ -3,694 +3,486 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basavanagowda D K || Portfolio website</title>
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Basavanagowda DK | Cloud Engineer | Azure DevOps · Moodle</title>
+    <meta name="description" content="Cloud Engineer in Bengaluru with 4+ years supporting Azure-hosted Moodle and PHP platforms. VM Scale Sets, Application Gateway, WAF, CI/CD. Reduced related Azure costs by 80%.">
+    <meta name="author" content="Basavanagowda DK">
+    <meta name="keywords" content="Cloud Engineer, Azure DevOps Engineer, Azure, Moodle, VMSS, Application Gateway, WAF, GitHub Actions, Docker, Bengaluru">
+    <meta name="theme-color" content="#0a0f1a">
+    <meta property="og:title" content="Basavanagowda DK | Cloud Engineer | Azure DevOps">
+    <meta property="og:description" content="Azure VMSS · Application Gateway · WAF · Moodle LMS · CI/CD. 80% Azure gateway cost reduction. Open to Cloud and Azure DevOps roles.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://basavanagowdadk.github.io/Portfolio/">
+    <meta property="og:image" content="img/hero.jpg">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="mask-icon" href="img/favicon.svg" color="#38bdf8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- boxicon css link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
     <script>
         if (window.location.hostname.includes('github.io')) {
-          document.write('<base href="/Portfolio/">');
+            document.write('<base href="/Portfolio/">');
         } else {
-          document.write('<base href="/">');
+            document.write('<base href="/">');
         }
     </script>
-
 </head>
 <body>
-    <div class="overlay"></div>
-    <header>
-        <a href="#" class="logo">
-            <span>G</span>owda
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <a href="#home" class="logo">
+            <img src="img/favicon.svg" alt="" width="28" height="28">
+            Basavanagowda<span> DK</span>
         </a>
-        <ul class="navlist">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="right-header">
-            <a href="https://api.whatsapp.com/send/?phone=9741818898&text&type=phone_number&app_absent=0" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
-            <div class="menu-icon">
-                <div class="bar"></div>
-            </div>
-            <img src="img/favicon.png" alt="" style="height: 40px; display: flex; justify-content: center;">
+        <nav class="nav" aria-label="Primary">
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#credentials">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="Basavanagowda_DK_Resume.pdf" class="btn btn-ghost" download>Resume</a>
+            <a href="mailto:basavanagowdadk@gmail.com" class="btn btn-primary">Email</a>
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+            </button>
         </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="hero-info">
-            <h3>Welcome To my World</h3>
-            <h1>Hi I'm Basavanagowda</h1>
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">Open to Cloud Engineer · Azure DevOps Engineer · Cloud + Moodle · Bengaluru</p>
+                <h1>Basavanagowda DK</h1>
+                <p class="role">Cloud Engineer | Azure DevOps Engineer</p>
+                <p class="lede">Cloud-focused Senior Software Engineer with 4+ years of production experience supporting Azure-hosted Moodle and PHP platforms. Hands-on with Azure VMs, VM Scale Sets, Application Gateway, WAF, Redis Cache, Azure MySQL Flexible Server, and Azure NetApp Files / File Storage. Delivered autoscaling, infrastructure migrations, CI/CD, security remediation, monitoring, disaster recovery, and live incident resolution.</p>
+                <div class="hero-ctas">
+                    <a href="Basavanagowda_DK_Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                    <a href="mailto:basavanagowdadk@gmail.com?subject=Opportunity%20for%20Basavanagowda%20DK" class="btn btn-ghost">Contact Me</a>
+                    <a href="https://www.linkedin.com/in/basavanagowda-d-k-b6b56a1a2" class="btn btn-text" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/BASAVANAGOWDADK" class="btn btn-text" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+                <ul class="metrics" aria-label="Career highlights">
+                    <li>
+                        <strong>80%</strong>
+                        <span>Azure gateway cost reduction</span>
+                    </li>
+                    <li>
+                        <strong>4+</strong>
+                        <span>Years in production Azure</span>
+                    </li>
+                    <li>
+                        <strong>50–60</strong>
+                        <span>Production issues resolved</span>
+                    </li>
+                    <li>
+                        <strong>VMSS</strong>
+                        <span>Autoscaling in production</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero-aside">
+                <div class="photo-wrap">
+                    <img src="img/hero.jpg" alt="Basavanagowda DK, Cloud Engineer" width="420" height="420" fetchpriority="high">
+                    <p class="photo-badge">Azure · Moodle</p>
+                </div>
+                <ul class="stack-row" aria-label="Core technologies">
+                    <li>Azure VMs</li>
+                    <li>VM Scale Sets</li>
+                    <li>Application Gateway</li>
+                    <li>WAF</li>
+                    <li>Redis</li>
+                    <li>Azure MySQL</li>
+                    <li>GitHub Actions</li>
+                    <li>Docker</li>
+                    <li>Moodle</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+        </section>
 
-            <div class="text-animate">
-                <h2>Senior Software Engineer</h2>
+        <section class="section" id="about">
+            <div class="section-head">
+                <p class="eyebrow">About</p>
+                <h2>Production Azure, then the Moodle on top of it</h2>
+                <p>Senior Software Engineer at Succeed Technologies in Bengaluru since August 2022. I keep Azure-hosted Moodle and PHP platforms running, then make the releases, cost, and incidents easier to handle.</p>
             </div>
+            <div class="about-layout">
+                <div class="about-copy">
+                    <p>Day to day that means Azure VMs and VM Scale Sets, Application Gateway, WAF, Redis, Azure MySQL Flexible Server, and shared file storage, with GitHub Actions and Docker for repeatable releases.</p>
+                    <p>I also take live issues through to a fix: outages, slow courses and reports, access problems, security findings, and customer-specific behavior.</p>
+                </div>
+                <ul class="about-points">
+                    <li>
+                        <strong>Keep production steady</strong>
+                        <span>Autoscaling, health checks, backups, and cross-region recovery.</span>
+                    </li>
+                    <li>
+                        <strong>Cut Azure cost carefully</strong>
+                        <span>Gateway consolidation already in production. 3-year VM and MySQL reservations are about 52% lower than pay-as-you-go.</span>
+                    </li>
+                    <li>
+                        <strong>Ship Moodle with a rollback</strong>
+                        <span>Testing, runbooks, and controlled releases instead of a big-bang cutover.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-            <p>Cloud-native engineer with 3+ years of experience building scalable Moodle LMS platforms, automating CI/CD workflows, and optimizing infrastructure on Azure & AWS. Awarded for innovation, cost reduction, and delivery velocity. I thrive at the intersection of clean code and resilient systems.</p>
+        <section class="section" id="experience">
+            <div class="section-head">
+                <p class="eyebrow">Work</p>
+                <h2>Experience</h2>
+                <p>Azure production architecture, DevOps, and Moodle platforms at Succeed Technologies.</p>
+            </div>
+            <article class="experience-card">
+                <header class="experience-meta">
+                    <div>
+                        <h3>Senior Software Engineer</h3>
+                        <p class="org">Succeed Technologies Pvt. Ltd. — Bengaluru, India</p>
+                    </div>
+                    <p class="dates">Aug 2022 – Present · 4+ years</p>
+                </header>
+                <div class="exp-groups">
+                    <div>
+                        <h4>Azure Cloud &amp; Reliability</h4>
+                        <ul>
+                            <li>Designed and supported Azure production architecture using VMs, VMSS, autoscaling, Azure MySQL Flexible Server, Redis Cache, Azure NetApp Files / File Storage, Application Gateway, and WAF to improve scalability, reliability, and peak-load handling.</li>
+                            <li>Implemented autoscaling for Elearnposh and Omega, monitored VMSS behavior under load, and troubleshot performance bottlenecks across application, database, storage, and infrastructure layers.</li>
+                            <li>Consolidated Azure WAF and Application Gateway resources into a multi-site architecture, simplifying routing and SSL management and contributing to an 80% reduction in related cloud infrastructure cost.</li>
+                            <li>Completed infrastructure migrations and production deployments with health checks, rollback planning, release coordination, and post-deployment monitoring; implemented and documented cross-region disaster recovery and cross-platform backup workflows.</li>
+                            <li>Remediated critical VAPT findings through secure configuration, code fixes, WAF updates, validation testing, and controlled production releases.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>DevOps &amp; Operations</h4>
+                        <ul>
+                            <li>Built and maintained GitHub Actions and Docker-based CI/CD workflows for repeatable build, test, and deployment across development, staging, and production.</li>
+                            <li>Resolved approximately 50–60 production and client issues involving outages, slow reports, course performance, user access, configuration, deployment, security, and customer-specific behavior.</li>
+                            <li>Created deployment guides, troubleshooting runbooks, and infrastructure documentation for autoscaling, WAF, Azure Identity Writeback, Moodle deployment and backup, and Git workflows.</li>
+                            <li>Used Cursor AI with Agent, Plan, Browser, MCP, and remote SSH workflows to speed development and troubleshooting by about 70% on selected initiatives, validating generated code through white-box testing and pre-production checks.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Moodle LMS &amp; Delivery</h4>
+                        <ul>
+                            <li>Improved Moodle performance for reports, user lists, course pages, and other high-use workflows through query analysis, caching, configuration tuning, and application-level optimization.</li>
+                            <li>Delivered cloud-backed Moodle and business platform work including Global Groups, Global SMTP, Adhoc Report Download, Course Custom Sections, Azure Identity Writeback, Course Certificate, POSH Audit, Survey, digital signage, Complaints Management, IC Meeting Minutes, Policy Drafting, LimeSurvey integration, Sales Dashboard, Merge API integration, custom reporting, and multi-tenant LMS capabilities.</li>
+                            <li>Supported Moodle upgrades and releases, including testing, code review, environment readiness, deployment, release notes, and customer issue resolution.</li>
+                            <li>Mentored junior developers on development, testing, code quality, deployment readiness, and production delivery practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
 
-            <div class="btn-box">
-                <a href="mailto:basavanagowdadk@gmail.com" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a>
-                <a href="https://drive.google.com/uc?export=download&id=10zbf5kDK9-Rex3izi6hGcO_l19ps5BTh" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+        <section class="section" id="projects">
+            <div class="section-head">
+                <p class="eyebrow">Selected work</p>
+                <h2>Projects &amp; impact</h2>
+                <p>Azure architecture, cost optimization, Moodle performance, and enterprise LMS delivery.</p>
             </div>
+            <div class="filters" role="tablist" aria-label="Filter projects">
+                <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+                <button type="button" class="filter-btn" data-filter="cloud">Cloud &amp; DevOps</button>
+                <button type="button" class="filter-btn" data-filter="moodle">Moodle</button>
+            </div>
+            <div class="project-grid">
+                <article class="project-card" data-tags="cloud">
+                    <p class="project-kicker">Cloud · Azure · Cost optimization</p>
+                    <h3>3-year VM &amp; MySQL reservations</h3>
+                    <p>Purchased 3-year Azure reservations for production virtual machines and Azure MySQL Flexible Server, running through September 2029. Reservations cover compute. MySQL I/O and storage, disks, backup, public IP, and alerts stay pay-as-you-go.</p>
+                    <p class="result"><strong>Saving:</strong> about 52% lower than pay-as-you-go on that resource group, before tax, with usage similar to August.</p>
+                    <ul class="tags">
+                        <li>Azure Reservations</li>
+                        <li>Virtual Machines</li>
+                        <li>Azure MySQL</li>
+                        <li>Cost Optimization</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-tags="cloud">
+                    <p class="project-kicker">Cloud · Azure · High availability</p>
+                    <h3>High-Availability Azure Architecture — Elearnposh &amp; Omega</h3>
+                    <p>Implemented VMSS autoscaling and integrated Application Gateway, WAF, Redis, managed MySQL, and shared file storage to support variable user demand, improve resilience, and reduce single-instance dependency. Monitored VMSS behavior under load and troubleshot bottlenecks across application, database, storage, and infrastructure layers.</p>
+                    <ul class="tags">
+                        <li>VM Scale Sets</li>
+                        <li>Application Gateway</li>
+                        <li>WAF</li>
+                        <li>Redis</li>
+                        <li>Azure MySQL</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-tags="cloud">
+                    <p class="project-kicker">Cloud · Azure · Cost optimization</p>
+                    <h3>Azure WAF &amp; Application Gateway Consolidation</h3>
+                    <p>Migrated multiple web applications, custom domains, SSL certificates, health probes, and routing rules to a shared multi-site gateway architecture with controlled cutover and no planned service interruption.</p>
+                    <p class="result"><strong>Result:</strong> Contributed to an 80% reduction in related cloud infrastructure cost. Level 2 Employee of the Month, June 2025.</p>
+                    <ul class="tags">
+                        <li>Azure</li>
+                        <li>WAF</li>
+                        <li>Application Gateway</li>
+                        <li>SSL</li>
+                        <li>Cost Optimization</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-tags="cloud moodle">
+                    <p class="project-kicker">Moodle · Performance · Release engineering</p>
+                    <h3>Moodle Platform Performance &amp; Release Engineering</h3>
+                    <p>Optimized reports, courses, user listings, and database interactions. Supported Moodle releases, production deployments, issue triage, and post-release stabilization. Tested cross-region and cross-platform backup and recovery workflows. Built GitHub Actions and Docker CI/CD for repeatable build, test, and deployment across dev, staging, and production.</p>
+                    <ul class="tags">
+                        <li>Moodle</li>
+                        <li>MySQL</li>
+                        <li>GitHub Actions</li>
+                        <li>Docker</li>
+                        <li>Backup / DR</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-tags="moodle">
+                    <p class="project-kicker">Moodle · Product · Award</p>
+                    <h3>SCORMBridge &amp; Enterprise LMS Enhancements</h3>
+                    <p>Contributed to a secure SCORM content delivery solution and enterprise Moodle capabilities spanning multi-tenant customization, API integrations, reporting, compliance workflows, policy tools, survey integrations, dashboards, and client-specific delivery.</p>
+                    <p class="result"><strong>Result:</strong> Product Catalyst Award — Driving Innovation Forward, September 2024, for SCORMBridge architecture and delivery.</p>
+                    <ul class="tags">
+                        <li>Moodle</li>
+                        <li>SCORM</li>
+                        <li>PHP</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-            <div class="social-media">
-                <div class="bg-icon">
-                    <a href="https://www.instagram.com/gowda__since_1998?igsh=OG1lbDU0ZzNtemZn"><i class='bx bxl-instagram'></i></a>
-                    <span></span>
+        <section class="section" id="skills">
+            <div class="section-head">
+                <p class="eyebrow">Stack</p>
+                <h2>Technical skills</h2>
+                <p>Grouped the way a hiring manager scans a Cloud / Azure DevOps / Moodle profile.</p>
+            </div>
+            <div class="skill-groups">
+                <div class="skill-group">
+                    <h3>Azure Cloud</h3>
+                    <ul class="tags">
+                        <li>Virtual Machines</li>
+                        <li>VM Scale Sets</li>
+                        <li>Autoscale</li>
+                        <li>Application Gateway</li>
+                        <li>Web Application Firewall</li>
+                        <li>Azure Cache for Redis</li>
+                        <li>Azure MySQL Flexible Server</li>
+                        <li>Azure NetApp Files</li>
+                        <li>Azure File Storage</li>
+                        <li>Networking</li>
+                        <li>SSL / TLS</li>
+                        <li>Cross-region DR</li>
+                        <li>Backup</li>
+                        <li>High availability</li>
+                        <li>Cost optimization</li>
+                        <li>Azure Reservations</li>
+                    </ul>
                 </div>
+                <div class="skill-group">
+                    <h3>DevOps &amp; Operations</h3>
+                    <ul class="tags">
+                        <li>GitHub Actions</li>
+                        <li>Docker</li>
+                        <li>CI/CD</li>
+                        <li>Git</li>
+                        <li>Linux administration</li>
+                        <li>Apache</li>
+                        <li>Nginx</li>
+                        <li>Production deployments</li>
+                        <li>Release management</li>
+                        <li>Monitoring</li>
+                        <li>Logging</li>
+                        <li>Incident response</li>
+                        <li>Deployment runbooks</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Security &amp; Reliability</h3>
+                    <ul class="tags">
+                        <li>Security hardening</li>
+                        <li>VAPT remediation</li>
+                        <li>WAF rules</li>
+                        <li>Access controls</li>
+                        <li>Patching</li>
+                        <li>White-box testing</li>
+                        <li>Backup validation</li>
+                        <li>DR testing</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Application &amp; Data</h3>
+                    <ul class="tags">
+                        <li>Moodle LMS</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MySQL</li>
+                        <li>REST APIs</li>
+                        <li>Plugin development</li>
+                        <li>Multi-tenant LMS</li>
+                        <li>SCORM</li>
+                        <li>Agile / Scrum</li>
+                        <li>Jira</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>AI Engineering Productivity</h3>
+                    <ul class="tags">
+                        <li>Cursor AI</li>
+                        <li>Agent Mode</li>
+                        <li>Plan Mode</li>
+                        <li>Browser Mode</li>
+                        <li>MCP Servers</li>
+                        <li>Remote SSH</li>
+                        <li>AI-assisted DevOps</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-                <div class="bg-icon">
-                    <a href="https://github.com/BASAVANAGOWDADK/"><i class='bx bxl-github'></i></a>
-                    <span></span>
+        <section class="section" id="credentials">
+            <div class="section-head">
+                <p class="eyebrow">Credentials</p>
+                <h2>Awards, training &amp; education</h2>
+            </div>
+            <div class="split-grid">
+                <div>
+                    <h3 class="subhead">Training &amp; education</h3>
+                    <article class="cred-card">
+                        <p class="cred-date">May 2024 · Besant Technologies</p>
+                        <h4>Microsoft Azure Administrator (AZ-104) training</h4>
+                        <p>Hands-on training in Azure VMs, storage, networking, identity, RBAC, monitoring, security, backups, and cost management. Training only — not a Microsoft certification.</p>
+                    </article>
+                    <article class="cred-card">
+                        <p class="cred-date">June 2022 · QSpiders</p>
+                        <h4>Full-Stack Web Development &amp; Software Testing</h4>
+                        <p>Training in Java, MySQL, web technologies, Selenium, Jira, and Agile delivery.</p>
+                    </article>
+                    <article class="cred-card">
+                        <p class="cred-date">2016 – 2020</p>
+                        <h4>B.E. in Mechanical Engineering</h4>
+                        <p>STJIT College of Engineering, Karnataka</p>
+                    </article>
                 </div>
+                <div>
+                    <h3 class="subhead">Awards</h3>
+                    <ul class="award-list">
+                        <li>
+                            <span class="award-when">Jun 2025</span>
+                            <div>
+                                <strong>Level 2 – Employee of the Month</strong>
+                                <p>Azure WAF and Application Gateway cost optimization.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="award-when">Sep 2024</span>
+                            <div>
+                                <strong>Product Catalyst Award — Driving Innovation Forward</strong>
+                                <p>SCORMBridge architecture and delivery.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="award-when">Mar 2024 · May 2023</span>
+                            <div>
+                                <strong>Employee of the Month</strong>
+                                <p>High-priority releases, hotfixes, and performance improvements.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="award-when">2022–2023</span>
+                            <div>
+                                <strong>Best Team of the Year — Team of Stars</strong>
+                                <p>Engineering delivery, collaboration, and platform stability.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-                <div class="bg-icon">
-                    <a href="https://x.com/BasavanagowdaDK?t=IQIoDvSJDneMhNdiiUb4kg&s=09"><i class='bx bxl-twitter'></i></a>
-                    <span></span>
-                </div>
-
-                <div class="bg-icon">
-                    <a href="https://www.linkedin.com/in/basavanagowda-d-k-b6b56a1a2/"><i class='bx bxl-linkedin'></i></a>
-                    <span></span>
-                </div>
-
-                <div class="bg-icon">
-                    <a href="https://api.whatsapp.com/send/?phone=9741818898&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a>
-                    <span></span>
-                </div>
+        <section class="section" id="contact">
+            <div class="section-head">
+                <p class="eyebrow">Next step</p>
+                <h2>Let’s talk about the role</h2>
+                <p>Open to full-time Cloud Engineer, Azure DevOps Engineer, and Cloud + Moodle roles. Based in Bengaluru.</p>
             </div>
-        </div>
-        <div class="img-hero">
-            <img src="img/hero.png" alt="">
-            <div class="rotate-text">
-                <div class="text">
-                    <p>I'm a Full Stack Developer And I'm Cloud DevOps Engineer</p>
-                </div>
-                <span><i></i></span>
-            </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/aboutMe.png" alt="Profile image" class="aboutHero">
-            <div class="showcase-ring">
-                <img src="shapes/ring.png" class="ring">
-                <img src="shapes/circle.png" class="circle">
-            </div>
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About Me</h2>
-            <h3>Cloud-Native Full Stack Developer | 3+ Years in LMS, DevOps & Automation</h3>
-            <p>I’m a Full Stack Developer and Cloud DevOps Engineer with 3+ years of experience designing scalable Moodle LMS platforms, automating CI/CD pipelines, and optimizing cloud infrastructure on Azure and AWS. My work focuses on enhancing performance, security, and cost-efficiency across enterprise eLearning systems. I bring a cross-functional mindset to every project, balancing backend logic with user-centric frontend design.</p>
-            <div class="about-btn">
-                <button class="active">Main Skills</button>
-                <button>Awards</button>
-                <button>Education</button>
-            </div>
-            <div class="content-btn">
-                <!-- Skills Section -->
-                <div class="content">
-                    <div class="text-box">
-                        <p>Backend Development</p>
-                        <span>PHP, Java, Moodle Plugin Dev, API Integration</span>
-                    </div>
-                    <div class="text-box">
-                        <p>Frontend Development</p>
-                        <span>HTML5, CSS3, JavaScript (ES6+), jQuery, Bootstrap</span>
-                    </div>
-                    <div class="text-box">
-                        <p>Cloud & DevOps</p>
-                        <span>Azure (AZ-104), AWS (EC2, S3), Docker, Jenkins, Terraform, Nginx, Apache</span>
-                    </div>
-                    <div class="text-box">
-                        <p>CI/CD & Monitoring</p>
-                        <span>GitHub Actions, Bitbucket Pipelines, Azure Monitor, Prometheus, Grafana, ELK Stack</span>
-                    </div>
-                    <div class="text-box">
-                        <p>Version Control</p>
-                        <span>Git, GitHub, Bitbucket</span>
-                    </div>
-                    <div class="text-box">
-                        <p>Database</p>
-                        <span>MySQL, PostgreSQL</span>
-                    </div>
-                    <div class="text-box">
-                        <p>Project Management</p>
-                        <span>Agile/Scrum, JIRA, Confluence</span>
+            <div class="contact-layout">
+                <div class="contact-panel">
+                    <ul class="contact-links">
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:basavanagowdadk@gmail.com">basavanagowdadk@gmail.com</a>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919741818898">+91 97418 18898</a>
+                        </li>
+                        <li>
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/basavanagowda-d-k-b6b56a1a2" target="_blank" rel="noopener noreferrer">linkedin.com/in/basavanagowda-d-k-b6b56a1a2</a>
+                        </li>
+                        <li>
+                            <span>GitHub</span>
+                            <a href="https://github.com/BASAVANAGOWDADK" target="_blank" rel="noopener noreferrer">github.com/BASAVANAGOWDADK</a>
+                        </li>
+                        <li>
+                            <span>Resume</span>
+                            <a href="Basavanagowda_DK_Resume.pdf" download>Download PDF</a>
+                        </li>
+                        <li>
+                            <span>Location</span>
+                            <p>Bengaluru, Karnataka</p>
+                        </li>
+                    </ul>
+                    <div class="contact-ctas">
+                        <a href="mailto:basavanagowdadk@gmail.com" class="btn btn-primary">Email recruiter</a>
+                        <a href="Basavanagowda_DK_Resume.pdf" class="btn btn-ghost" download>Download resume</a>
                     </div>
                 </div>
-    
-                <!-- Awards Section -->
-                <div class="content">
-                    <div class="text-box">
-                        <p>🌟 Level 2 – Employee of the Month (June 2025)</p>
-                        <span>Awarded for reducing Azure Application Gateway & WAF costs by 80% via strategic consolidation and zero-downtime migration.</span>
+                <form class="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSf164wydz_07NCA3fFdBNNHNQ-cetPMR7W7tod_pbYiqP765g/formResponse" method="POST" target="_self">
+                    <div class="form-row">
+                        <label>
+                            First name
+                            <input type="text" name="entry.2064029675" required autocomplete="given-name">
+                        </label>
+                        <label>
+                            Last name
+                            <input type="text" name="entry.442998778" required autocomplete="family-name">
+                        </label>
                     </div>
-                    <div class="text-box">
-                        <p>🏆 Product Catalyst Award (Sep 2024)</p>
-                        <span>Recognized for leading SCORMBridge, an award-winning SCORM content delivery platform integrated into Moodle.</span>
-                    </div>
-                    <div class="text-box">
-                        <p>🎯 Employee of the Month (Mar 2024 & May 2023)</p>
-                        <span>Honored for rapid deployment of critical features and infrastructure stability during major LMS rollouts.</span>
-                    </div>
-                    <div class="text-box">
-                        <p>👥 Best Team of the Year (2022–2023)</p>
-                        <span>Recognized as part of the highest-impact engineering team for cross-functional delivery and platform resilience.</span>
-                    </div>
-                </div>
-    
-                <!-- Education Section -->
-                <div class="content">
-                    <div class="text-box">
-                        <p>🎓 Certifications</p>
-                        <span>Azure Administrator – AZ-104 (Issued May 2024)<br> AWS Solutions Architect – MicroDegree (Issued Apr 2025)<br> Full-Stack & Testing – QSpiders (Issued Jun 2022)</span>
-                    </div>
-                    <div class="text-box">
-                        <p>💼 Work Experience</p>
-                        <span>Senior Software Engineer – Succeed Technologies Pvt. Ltd. (Aug 2022–Present)<br> Focus: Moodle LMS, DevOps automation, and performance optimization.</span>
-                    </div>
-                    <div class="text-box">
-                        <p>🎓 Bachelor of Engineering – Mechanical</p>
-                        <span>STJIT College of Engineering, Karnataka (2016–2020)<br> CGPA: 6.9</span>
-                    </div>
-                </div>
-            </div>
-            <div class="cvContent">
-                <a href="https://drive.google.com/uc?export=download&id=10zbf5kDK9-Rex3izi6hGcO_l19ps5BTh" class="btn d-CV" target="_blank">📄 View My Resume <i class='bx bx-download'></i></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <div class="main-text">
-            <h2 class="heading">My Services</h2>
-            <span>What I can do for you</span>
-        </div>
-
-        <div class="allServices">
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-cloud'></i>
-                    <span></span>
-                </div>
-                <h3>Cloud Engineering & Cost Optimization</h3>
-                <p>Expert in architecting secure, scalable, and cost-efficient cloud systems on Azure and AWS. Reduced infra costs by up to 80% through intelligent consolidation and automation using Terraform, Azure WAF, and monitoring tools.</p>
-            </div>
-    
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-code-alt'></i>
-                    <span></span>
-                </div>
-                <h3>Full Stack Development</h3>
-                <p>Delivering robust web applications with PHP, JavaScript (ES6+), Node.js, and MySQL. Specialized in building custom Moodle-based LMS platforms with SCORM integration, dynamic reports, and scalable multi-tenant capabilities.</p>
-            </div>
-    
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-desktop'></i>
-                    <span></span>
-                </div>
-                <h3>UI / UX Optimization</h3>
-                <p>Designing user-first experiences with clean UI, functional flows, and accessibility in mind. Improved LMS user satisfaction by refining visual hierarchy and optimizing navigation structures across web applications.</p>
-            </div>
-    
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-git-branch'></i>
-                    <span></span>
-                </div>
-                <h3>DevOps Automation</h3>
-                <p>Building CI/CD pipelines with Jenkins, GitHub Actions, and Docker to speed up deployments by 60%+. Managing infra-as-code with Terraform and ensuring zero-downtime rollouts with robust monitoring via Azure Monitor & ELK.</p>
-            </div>
-    
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-task'></i>
-                    <span></span>
-                </div>
-                <h3>Agile Project Execution</h3>
-                <p>Ensuring consistent delivery of high-quality software using Agile, Scrum, and JIRA. Experienced in leading cross-functional sprints and managing project lifecycles from planning to deployment in startup-like velocity.</p>
-            </div>
-        </div>
-    
-        <div class="proposal">
-            <div class="text-box">
-                <span>Let’s Build Something Exceptional</span>
-                <h3>Have a Project in Mind?</h3>
-                <a href="#contact" class="btn">Contact Me</a>
-            </div>
-            <img src="img/support.png" class="first">
-        </div>
-    
-        <div class="showcase">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/circle.png" class="circle">
-            <img src="shapes/circle.png" class="circle2">
-            <img src="shapes/circle.png" class="circle3">
-            <img src="shapes/half-ring.png" class="half-ring">
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="main-text">
-            <h2 class="heading">Portfolio</h2>
-            <span>What I have done</span>
-        </div>
-        <div class="fillter-buttons">
-            <button class="button mixitup-control-active" data-filter="all">All Work</button>
-            <button class="button" data-filter=".cloud">Cloud</button>
-            <button class="button" data-filter=".devops">DevOps</button>
-            <button class="button" data-filter=".web">Web Development</button>
-            <button class="button" data-filter=".api">API</button>
-            <button class="button" data-filter=".product">Product</button>
-        </div>
-    
-        <div class="portfolio-gallery">
-
-            <div class="portfolio-box mix cloud devops">
-                <div class="portfolio-content">
-                    <h3>Java CI/CD Pipeline (AWS)</h3>
-                    <p>Built automated CI/CD pipeline using Jenkins, GitHub Actions, Docker, and Trivy. Deployed on AWS EC2 with DockerHub image management.</p>
-                    <a href="https://github.com/BASAVANAGOWDADK/java-ci-cd-pipeline" class="readMore" target="_blank">View on GitHub</a>
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Moodle LMS Upgrade</h3>
-                    <p>Upgraded Moodle from v4.5 to v5.0—enhancing backend performance, security, and UI/UX. Fixed plugin compatibility issues and improved system responsiveness.</p>
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix cloud devops">
-                <div class="portfolio-content">
-                    <h3>Azure WAF & Gateway Optimization</h3>
-                    <p>Cut cloud cost by 80% by consolidating Azure WAF & Gateway setups. Enabled zero-downtime migration, failover, and enhanced routing architecture.</p>
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Moodle LMS Customization</h3>
-                    <p>Built multi-tenant Moodle with custom plugins, SCORM integration, dynamic reporting, and branded themes. Focused on enterprise-grade UX.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/lms.jpg" alt="LMS Customization">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Complaints Management System</h3>
-                    <p>Developed a secure POSH platform with 2FA, interview scheduling, and tracking modules. Ensured data confidentiality and compliance alignment.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/cms.jpg" alt="Complaints System">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Policy Drafting Tool</h3>
-                    <p>Built dynamic chatbot-driven tool for automated policy creation using admin-configured question trees. Reduced manual drafting errors.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/pdt.jpg" alt="Policy Tool">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix product">
-                <div class="portfolio-content">
-                    <h3>SCORMBridge (Award-Winning)</h3>
-                    <p>Engineered SCORMBridge for secure, scalable SCORM content delivery on Moodle. Recognized with Product Catalyst Award for innovation.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/sb.jpg" alt="SCORMBridge">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>IC Meeting Register</h3>
-                    <p>Designed platform to log internal committee meetings with trackable action items for audit readiness and governance.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/im.jpg" alt="IC Register">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Microlearning Platform</h3>
-                    <p>Created a mobile-first platform delivering bite-sized learning. Increased engagement and knowledge retention in internal training programs.</p>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/ml.png" alt="Microlearning">
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Sales Dashboard</h3>
-                    <p>Developed central dashboard for licensing, lead tracking, and reporting. Enabled real-time insights for leadership.</p>
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix api">
-                <div class="portfolio-content">
-                    <h3>Merge API Integration</h3>
-                    <p>Integrated Merge API to unify and standardize third-party services into a single backend—accelerated delivery and reduced integration cost.</p>
-                </div>
-            </div>
-    
-            <div class="portfolio-box mix api">
-                <div class="portfolio-content">
-                    <h3>LimeSurvey–Moodle Sync</h3>
-                    <p>Connected LimeSurvey to Moodle LMS for automated survey distribution and analytics integration. Enhanced learner feedback loop.</p>
-                </div>
-            </div>
-    
-        </div>
-    </section>
-
-    <section class="testimonial-section">
-        <div class="main-text">
-            <h2 class="heading">What Clients Say</h2>
-            <span class="subheading">Ratings and Reviews</span>
-        </div>
-
-        <div class="testimonial-card">
-            <div class="testimonial-image">
-            <img src="img/rateings/image(1).jpg" alt="" />
-            </div>
-            <div class="testimonial-content">
-                <p class="testimonial-text">
-                    Basava has done an excellent job with helping us to install and configure a Moodle learning management system on a remote virtual private server. He was prompt and very clear in his communications and a pleasure to work with. Our Moodle installation is working very well and we are very happy with it. When we have additional work in the future, we will definitely rehire him.
-                </p>
-                <div class="rating">⭐⭐⭐⭐⭐</div>
-                <p class="client-name">– Upwork Client</p>
-                <a class="upwork-link" href="https://www.upwork.com/freelancers/~01146fbaf6de14f37f?mp_source=share" target="_blank">
-                    <i class='bx bxl-upwork'></i>
-                    <span>View Verified Upwork Profile</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="blog" id="blog">
-        <div class="main-text">
-            <h2 class="heading">Blog</h2>
-            <span>Latest News & Insights</span>
-        </div>
-    
-        <div class="blog-box swiper mySwiper">
-            <div class="cards swiper-wrapper">
-    
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (6).jpg" alt="Best Team of the Year Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Best Team of the Year 2023</h2>
-                        <span class="date">April 1, 2023</span>
-                        <p class="excerpt">
-                            Our engineering team earned the prestigious Team of Stars Award for outstanding performance, cross-functional collaboration, and delivery of stable enterprise eLearning solutions throughout 2022–2023.
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (1).jpg" alt="Product Catalyst Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Product Catalyst Award</h2>
-                        <span class="date">September 12, 2024</span>
-                        <p class="excerpt">
-                            Honored with the Product Catalyst Award for leading the architecture and delivery of SCORMBridge—an innovative SCORM content solution integrated into Moodle LMS, enhancing learning security and scale.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (2).jpg" alt="Product Catalyst Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Product Catalyst Award</h2>
-                        <span class="date">September 12, 2024</span>
-                        <p class="excerpt">
-                            Honored with the Product Catalyst Award for leading the architecture and delivery of SCORMBridge—an innovative SCORM content solution integrated into Moodle LMS, enhancing learning security and scale.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (3).jpg" alt="Product Catalyst Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Product Catalyst Award</h2>
-                        <span class="date">September 12, 2024</span>
-                        <p class="excerpt">
-                            Honored with the Product Catalyst Award for leading the architecture and delivery of SCORMBridge—an innovative SCORM content solution integrated into Moodle LMS, enhancing learning security and scale.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (4).jpg" alt="Product Catalyst Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Product Catalyst Award</h2>
-                        <span class="date">September 12, 2024</span>
-                        <p class="excerpt">
-                            Honored with the Product Catalyst Award for leading the architecture and delivery of SCORMBridge—an innovative SCORM content solution integrated into Moodle LMS, enhancing learning security and scale.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/image (5).jpg" alt="Product Catalyst Award">
-                    </div>
-                    <div class="card-info">
-                        <h2>Product Catalyst Award</h2>
-                        <span class="date">September 12, 2024</span>
-                        <p class="excerpt">
-                            Honored with the Product Catalyst Award for leading the architecture and delivery of SCORMBridge—an innovative SCORM content solution integrated into Moodle LMS, enhancing learning security and scale.
-                        </p>
-                    </div>
-                </div>
-    
-            </div>
-        </div>
-    
-        <div class="swiper-pagination"></div>
-    
-        <div class="showcase">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/second-circle.png" class="second-circle">
-            <img src="shapes/circle.png" class="circle">
-            <img src="shapes/half-ring.png" class="half-ring">
-        </div>
-    </section>
-
-    <section class="down-box" id="contact">
-        <div class="contactSkills">
-            <div class="contact-info">
-                <div class="main-text">
-                    <h2 class="heading">Contact Me</h2>
-                    <span>get in touch with me</span>
-                </div>
-                <form action="https://docs.google.com/forms/d/e/1FAIpQLSf164wydz_07NCA3fFdBNNHNQ-cetPMR7W7tod_pbYiqP765g/formResponse" method="POST" target="_self">
-                    <div class="input-box">
-                        <input type="text" name="entry.2064029675" placeholder="First Name" required>
-                        <input type="text" name="entry.442998778" placeholder="Last Name" required>
-                    </div>
-                    <input type="email" name="entry.1565533050" placeholder="Email" required>
-                    <input type="text" name="entry.2017698755" placeholder="Subject" required>
-                    <textarea name="entry.1711553480" placeholder="Message" cols="30" rows="10" required></textarea>
-                    <div class="formBtn">
-                        <button type="submit" class="btn">Send Message</button>
-                    </div>
+                    <label>
+                        Email
+                        <input type="email" name="entry.1565533050" required autocomplete="email">
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" name="entry.2017698755" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="entry.1711553480" rows="6" required></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Send message</button>
                 </form>
             </div>
-            <div class="skills">
-                <div class="container">
-                    <div class="skillBox">
-                        <div class="main-text">
-                            <h2 class="heading">My Skills</h2>
-                            <span>Let Me Help you</span>
-                        </div>
-                        <div class="skill-wrap">
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Backend Development
-                                </div>
-                            </div>
+        </section>
+    </main>
 
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="65">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Frontend Development
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="75">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Cloud & DevOps
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="70">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Version Control
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Database
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="65">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Project Management & Methodologies
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>Copyright © 2024 by <span>Basavanagowda D K</span> || All Right Reservd.</p>
+    <footer class="site-footer">
+        <p>© <span id="year">2026</span> Basavanagowda DK · Cloud Engineer · Bengaluru</p>
     </footer>
 
-    <div id="progress">
-        <span id="progress-value">
-            <i class='bx bxs-chevrons-up' ></i>
-        </span>
-    </div>
-
-    <!-- scroll reveal  -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <!-- mixitup cdn js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </body>
 </html>

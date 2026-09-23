@@ -1,6 +1,6 @@
 # Basavanagowda DK – Developer Portfolio
 
-Welcome to the portfolio repository of **Basavanagowda DK**, a Senior Software Engineer with 3+ years of experience in Full Stack Development, Moodle LMS customization, DevOps automation, and Cloud Infrastructure (Azure & AWS).
+Welcome to the portfolio repository of **Basavanagowda DK**, a Cloud Engineer with 4+ years of production experience supporting Azure-hosted Moodle and PHP platforms.
 
 ---
 
