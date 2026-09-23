@@ -1,48 +1,40 @@
-# Basavanagowda DK – Developer Portfolio
+# Basavanagowda DK
 
-Welcome to the portfolio repository of **Basavanagowda DK**, a Cloud Engineer with 4+ years of production experience supporting Azure-hosted Moodle and PHP platforms.
+Cloud Engineer | Azure DevOps Engineer. Static portfolio for a recruiter scan: production Azure, Moodle, and the work behind the 2026 resume.
 
----
+**Live:** [basavanagowdadk.github.io/Portfolio](https://basavanagowdadk.github.io/Portfolio/)
 
-## 🔍 Overview
+## Pages
 
-This is my personal portfolio website, showcasing my technical capabilities, real-world projects, certifications, and achievements. It is built to reflect professional depth, visual clarity, and responsive design best practices.
+- Home, with photo, resume, and proof points
+- About
+- Experience at Succeed Technologies
+- Projects, including the 80% gateway consolidation and 3-year VM and MySQL reservations
+- Skills
+- Awards, training, and education
+- Contact
 
----
+AZ-104 is listed as training, not a Microsoft certification.
 
-## 🚀 Features
+## Stack
 
-- **Hero Section:** Clean landing area introducing my role and mission with animated headings and calls to action.
-- **About Section:** Background, core competencies, awards, and education—switchable via tabbed content.
-- **Services Section:** Highlights my offerings in Cloud Architecture, Moodle LMS, Full Stack Development, and Agile Delivery.
-- **Portfolio Section:** Live case studies including CI/CD pipelines, SCORMBridge, LMS upgrades, and DevOps cost optimization.
-- **Blog Section:** Spotlights key achievements like “Employee of the Month” and the “Product Catalyst Award.”
-- **Contact Section:** Direct links to reach me via email, LinkedIn, or GitHub.
-- **Responsive Design:** Fully optimized for mobile, tablet, and desktop using Bootstrap 5.
+HTML, CSS, and JavaScript. No framework. Hosted on GitHub Pages.
 
----
+| File | Role |
+| --- | --- |
+| `index.html` | Page content |
+| `style.css` | Layout |
+| `script.js` | Menu, project filters, active section |
+| `img/hero.jpg` | Portrait |
+| `img/favicon.svg` | Icon and header mark |
+| `Basavanagowda_DK_Resume.pdf` | Resume download |
 
-## 🛠️ Technologies Used (For This Portfolio Website)
-
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5  
-- **Icons & UI Elements:** Boxicons, Font Awesome, Swiper.js  
-- **Version Control:** Git, GitHub  
-- **Responsive Layouts:** Media Queries, Flexbox, Grid  
-- **Deployment:** GitHub Pages  
-
----
-
-## 📂 Live Demo
-
-🔗 [View Portfolio Live](https://basavanagowdadk.github.io/Portfolio/)
-
----
-
-## 🧩 Getting Started
-
-To run this project locally:
+## Run locally
 
 ```bash
-git clone https://github.com/BASAVANAGOWDADK/portfolio.git
-cd portfolio
-# Open index.html in your browser
+git clone https://github.com/BASAVANAGOWDADK/Portfolio.git
+cd Portfolio
+npx serve -l 5173
+```
+
+Open [http://localhost:5173](http://localhost:5173).
